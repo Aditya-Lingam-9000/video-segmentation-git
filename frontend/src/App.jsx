@@ -49,7 +49,7 @@ function App() {
 
       <main>
         <div className="card">
-          <div className="upload-area" onClick={() => fileInputRef.current.click()}>
+          <div className="upload-area">
             <input
               type="file"
               accept="video/*"
