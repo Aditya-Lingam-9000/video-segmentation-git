@@ -1,0 +1,22 @@
+# Ignore Python Virtual Environment (The huge files)
+venv/
+backend/venv/
+__pycache__/
+
+# Ignore AI Models
+*.pt
+*.onnx
+
+# Ignore Frontend Dependencies
+node_modules/
+frontend/node_modules/
+dist/
+
+# Ignore Video/Temp files
+*.mp4
+*.avi
+*.webm
+backend/temp/
+
+# System files
+.DS_Store
